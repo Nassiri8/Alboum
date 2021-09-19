@@ -9,7 +9,7 @@ class Order(BaseModel):
     number:str = Field(None, title="order number", max_length=255, example="12334323")
     user_id: int  = Field(None, title="id client", example = "1")
 
-@router.get("/order/{order_id}")
-def read_item(order_id: int, q: Optional[str] = None):
+@router.get("/{order_id}")
+def read_order(order_id: int, q: Optional[str] = None):
     return {"order_id": order_id, "q": q}
 

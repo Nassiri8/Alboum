@@ -11,15 +11,15 @@ class User(BaseModel):
     phone:str
     password: str
 
-@router.get("/user/{user_id}")
-def getUserById(user_id):
+@router.get("/{user_id}")
+def read_user(user_id):
     return user_id
 
-@router.get("/users")
-def getUsers():
+@router.get("")
+def read_all_users():
     user = {}
     return user
 
-@router.post("/user")
+@router.post("")
 def post(data:User):
     return data
