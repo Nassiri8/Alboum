@@ -14,4 +14,4 @@ class Users(Base):
     password = Column(String)
 
     def __repr__(self):
-        return 'id: {}, root cause: {}'.format(self.id, self.root_cause)
+        return 'id: {}, lastname: {}'.format(self.id, self.lastname)
