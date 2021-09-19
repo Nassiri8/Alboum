@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/noureddine/Documents/notion/Python/FastAPI/FastAPI-test"
+VIRTUAL_ENV="/Users/noureddine/Documents/notion/Python/FastAPI/myapp"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(FastAPI-test) " != x ] ; then
-	PS1="(FastAPI-test) ${PS1:-}"
+    if [ "x(myapp) " != x ] ; then
+	PS1="(myapp) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
