@@ -1,0 +1,41 @@
+Site E-commerce (Album or Resel de Manga):
+
+backend:
+
+- check trello 
+- Alembic
+- JWT 
+- CRUD of Entity 
+- check to make middleware 
+-----------------------------------------------------------------
+Next backend:
+
+- micro-service de paiement 
+- micro-service mailing 
+-----------------------------------------------------------------
+Front-end:
+
+
+- choose ur stack 
+- lookin for archtecture and best practice
+- make 3 Views 
+------------------------------------------------------------------ 
+
+Composent to Add to add:
+
+- SMTP 
+- Payment plugin
+------------------------------------------------------------------
+Server Admin sys:
+
+- Server GCP 
+- Kubernetes and docker
+- SSL 
+- Load balancing 
+- CI/CD
+------------------------------------------------------------------
+Documentation:
+
+- Readme backend 
+- Readme frontend 
+- README deploy
